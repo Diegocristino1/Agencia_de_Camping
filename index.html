@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Max Travel Agency</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="header-menu">
+        <div class="container">
+            <h1 class="navbar-brand m-0 fs-1 section-title">Diego agencia de Camping</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav-menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="nav-menu">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#about-us" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            About Us
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#main-destinations" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Main Destinations
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#dynamic-menu" class="nav-link">
+                            <i class="bi bi-star-fill me-1"></i>
+                            Exclusive Trips
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#contact-us" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Contact Us
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#nav-menu" data-bs-smooth-scroll >
+        <section id="about-us">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="camping1.jpeg" alt="camping">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="camping2.jpeg" alt="camping">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="camping3.jpeg" alt="camping">
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button class="active" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                        <button data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                        <button data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="camping4.jpeg" class="d-block w-100 rounded" alt="Inside the agency">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">About <span class="text-colored">Us</span></h2>
+                            <p class="lead">
+                                Welcome to Diego agencia de camping, a versatile web solution designed to showcase the endless possibilities of modern online commerce. Originally tailored for a travel agency, this demo is easily customizable for a variety of businesses, including Real Estate Agencies, Event Planning, Restaurants or Cafés, Digital Agencies, and E-commerce Stores. Elevate your online presence today! For more details, visit maxhaider.dev."
+                            </p>
+                            <h3 class="section-title">Vacation<span class="text-colored"> Packages</span></h3>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore debitis eius accusamus modi. Quasi, veniam error quod ex numquam delectus labore qui dolores, inventore, maiores ipsum dicta quisquam sapiente eos?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="main-destinations" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Main<span class="text-colored"> Destinations</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="camping5.jpeg" alt="" class="d-bcampinglock w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4" >
+                            <i class="bi bi-calendar-heart-fill"></i>
+                            Beach Vacations</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor culpa rerum blanditiis dignissimos pariatur dolores distinctio tempora eveniet earum quas id facere quidem quod, quam tenetur, maxime corrupti! Ex, iusto?
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="camping3.jpeg" alt="forest camp" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4" >
+                            <i class="bi bi-arrow-through-heart-fill"></i>
+                            County Camp</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quam placeat sequi assumenda aperiam fugiat facere, commodi laborum eum architecto sit itaque voluptatum, consequuntur excepturi! Minima delectus repellendus praesentium laudantium?
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="camping1.jpeg" alt="camping" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4" >
+                            <i class="bi bi-people-fill"></i>
+                            Skiing</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sequi aliquid alias exercitationem? Tempora, laborum est nihil dolorem fugit quidem odio explicabo ad qui eius, corrupti doloremque pariatur maiores voluptatem.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="dynamic-menu" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Explore <span class="text-colored"> our Packages</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-dynamic-menu">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#camping" class="fw-bold text-start nav-link text-colored active">Argentina</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#camping" class="fw-bold text-start nav-link text-colored">Brazil</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#camping" class="fw-bold text-start nav-link text-colored">Chile</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#camping" class="fw-bold text-start nav-link text-colored">Cruise Ship</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#camping" class="fw-bold text-start nav-link text-colored">Greece</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="argentina">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="camping4.jpeg" alt="camping">
+                                        <h5 class="text-colored fw-bold mt-2">Ski Station Bariloche</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta nobis dolorum, tempora eos dicta magnam nisi quaerat molestias ut nemo exercitationem accusamus laboriosam ipsa libero vero similique maxime facere praesentium.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="camping1.jpeg" alt="camping">
+                                        <h5 class="text-colored fw-bold mt-2">Lake Camp</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse necessitatibus excepturi voluptatibus autem, neque accusamus dolorum quia nihil non dolor similique animi ad ratione. Suscipit animi voluptates cum obcaecati quibusdam!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="camping4.jpeg" alt="camping">
+                                        <h5 class="text-colored fw-bold mt-2">Mountain Hotel</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, quam? Impedit officia reiciendis nobis, aspernatur quisquam debitis suscipit mollitia sequi tenetur. Dolorum voluptatibus quam quod quibusdam, quia cupiditate sunt repellat!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="brazil">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                    <img class="d-block w-100" src="camping5.jpeg" alt="camping">
+                                        <h5 class="text-colored fw-bold mt-2">Rio de Janeiro Tour</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo alias voluptatem, minima, facere deserunt praesentium facilis fugiat autem dignissimos dolorem laudantium itaque explicabo quam commodi unde ut qui voluptatum. Sit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="camping3.jpeg" alt="camping">
+                                        <h5 class="text-colored fw-bold mt-2">Sao Paulo Tour</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam veritatis adipisci libero facere tenetur sunt error voluptatem autem dolores! Quasi minima amet corporis qui! Aperiam, quia tempora. Magnam, nemo repellendus!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="camping4.jpeg" alt="camping">
+                                        <h5 class="text-colored fw-bold mt-2">Arraial do Cabo</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde repellendus autem culpa itaque eius voluptatibus obcaecati, illo facere. Id eius modi accusamus harum beatae veritatis error cumque, praesentium distinctio suscipit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="chile">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="camping2.jpeg" alt="camping">
+                                        <h5 class="text-colored fw-bold mt-2">Hand of Deserted</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat dolor alias commodi, quae facilis possimus architecto temporibus quis nisi animi quia magnam quibusdam velit rem eveniet, incidunt porro? Minus, illum.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="camping3.jpeg" alt="camping">
+                                        <h5 class="text-colored fw-bold mt-2">camping </h5>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat iste repellendus eveniet vero sapiente! Ad perferendis obcaecati quas veritatis deserunt nulla illum maxime aspernatur necessitatibus itaque, inventore repellendus, odio esse!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="camping1.jpeg" alt="camping">
+                                        <h5 class="text-colored fw-bold mt-2">Off-Road on Atacama</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, animi nesciunt quidem dolorum ipsam voluptatem ex esse saepe reprehenderit quaerat eaque tempora harum eius ut temporibus tempore nam maiores voluptatum.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="cruise-ship">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="camping3.jpeg" alt="camping">
+                                        <h5 class="text-colored fw-bold mt-2">Europe Coast 6 Nights</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam dolore, harum quidem mollitia inventore officia similique beatae incidunt autem neque architecto ipsum distinctio aut deleniti recusandae accusamus doloribus animi quibusdam.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="camping5.jpeg" alt="camping">
+                                        <h5 class="text-colored fw-bold mt-2">Brazilian Coast 5 Nights</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit officiis labore saepe eligendi porro, est dolores fuga odio, deserunt quia, eos dignissimos recusandae praesentium modi dolor eius animi possimus? Illo?
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                    <img class="d-block w-100" src="camping4.jpeg" alt="camping">
+                                        <h5 class="text-colored fw-bold mt-2">Caribbean 3 Nights</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex temporibus repellendus expedita suscipit dolorem quo aliquid non amet dolorum consequatur ab laboriosam a, dicta, minus labore tenetur nulla blanditiis hic?
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="greece">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="camping1.jpeg" alt="monument on greece">
+                                        <h5 class="text-colored fw-bold mt-2">Athens Tour</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. At inventore, minima rerum cumque reprehenderit dolorum, tempore, sapiente ex explicabo libero totam temporibus! Architecto, maxime tempore doloribus pariatur eius ea repellat.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="camping2.jpeg" alt="camping">
+                                        <h5 class="text-colored fw-bold mt-2">Navagio Tour</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta eligendi asperiores eveniet atque deserunt dicta inventore, sint perspiciatis! Rerum nesciunt cumque dolores dolorum vero, ullam in consequuntur. Aspernatur, eligendi architecto!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="camping5.jpeg" alt="camping">
+                                        <h5 class="text-colored fw-bold mt-2">Santorini Tour</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, iste hic minus fugiat non labore! Consequatur doloribus voluptate accusamus facilis, suscipit tenetur, et aliquid quisquam reiciendis quas ullam, est numquam.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact-us" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Contact <span class="text-colored">Us</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="name" class="form-label fw-bold text-colored">Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Type your name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">E-mail</label>
+                                <input type="email" class="form-control" id="email" placeholder="Type your e-mail" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="phone" class="form-label fw-bold text-colored">Phone (optional)</label>
+                                <input type="tel" class="form-control" id="phone" placeholder="Type your phone">
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label fw-bold text-colored">Message</label>
+                                <textarea class="form-control" id="message" rows="3" placeholder="Type your message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Send</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Social Media
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Address
+                            </h3>
+                            <p>
+                                Rua Lorem Ipsum, 1234
+                            </p>
+                        </div>
+                </div>
+            </div>
+            <footer class="footer mt-auto py-3 bg-light" id="footer">
+                <div class="">
+                    <div class="row">
+                        <div class="col text-center">
+                            <span class="text-muted">&copy; 2024 - maxhaider.dev</span>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
